@@ -73,11 +73,11 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
 Una vez finalizada la creación o modificación de `01_UserHistory.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
 1. Verificar que los siguientes archivos existe y contiene los cambios realizados: `01_UserHistory.md`, `00_FURDS.md` y  `02_ReqsDefinition.md`
 2. Preguntarme si te autorizo para publicar los cambios pendientes y recientes de los archivos en el repositorio central que está en la nube, eres libre de ocupar el método posible y el más natural y seguro.
-2.A. Si la publicación es exitosa:
+3. Si la publicación es exitosa:
    - Informar que el documento fue publicado.
    - Indicar el nombre del archivo.
    - Informar la rama y el commit generado.
-2.B. Si ocurre un error:
+4. Si ocurre un error:
    - No indicar que el documento fue publicado.
    - Informar el error.
    - Sugerir alternativas
