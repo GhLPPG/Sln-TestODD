@@ -71,34 +71,15 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
   
 ## PUBLICACIÓN AUTOMÁTICA EN GITHUB
 Una vez finalizada la creación o modificación de `01_UserHistory.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
-1. Verificar que el archivo `01_UserHistory.md` existe y contiene los cambios realizados.
-2. Ejecutar el script centralizado de publicación:
-   powershell -NoProfile -ExecutionPolicy Bypass -File ".github/scripts/publish-document.ps1" -FilePath "documents/01_UserHistory.md" -CommitMessage "docs: update 01_UserHistory.md"
-2. Esperar el resultado de la ejecución.
-3. Si la publicación es exitosa:
+1. Verificar que los siguientes archivos existe y contiene los cambios realizados: `01_UserHistory.md`, `00_FURDS.md` y  `02_ReqsDefinition.md`
+2. Preguntarme si te autorizo para publicar los cambios pendientes y recientes de los archivos en el repositorio central que está en la nube, eres libre de ocupar el método posible y el más natural y seguro.
+2.A. Si la publicación es exitosa:
    - Informar que el documento fue publicado.
    - Indicar el nombre del archivo.
    - Informar la rama y el commit generado.
-4. Si ocurre un error:
+2.B. Si ocurre un error:
    - No indicar que el documento fue publicado.
    - Informar el error.
-   - No intentar crear commits alternativos ni
-     sobrescribir cambios remotos.
-
-Una vez finalizada la creación o modificación de `00_FURDS.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
-1. Verificar que el archivo `00_FURDS.md` existe y contiene los cambios realizados.
-2. Ejecutar el script centralizado de publicación:
-   powershell -NoProfile -ExecutionPolicy Bypass -File ".github/scripts/publish-document.ps1" -FilePath "documents/00_FURDS.md" -CommitMessage "docs: update FURDS central"
-2. Esperar el resultado de la ejecución.
-3. Si la publicación es exitosa:
-   - Informar que el documento fue publicado.
-   - Indicar el nombre del archivo.
-   - Informar la rama y el commit generado.
-4. Si ocurre un error:
-   - No indicar que el documento fue publicado.
-   - Informar el error.
-   - No intentar crear commits alternativos ni
-     sobrescribir cambios remotos.
-
+   - Sugerir alternativas
 REGLA OBLIGATORIA:
 No considerar finalizada la ejecución de la SKILL hasta completar el procedimiento de publicación o informar explícitamente que no fue posible.  
