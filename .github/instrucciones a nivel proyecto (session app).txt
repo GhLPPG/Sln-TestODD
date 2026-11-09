@@ -1,0 +1,13 @@
+
+Este repositorio implementa el proceso documental FURDS.
+
+Antes de trabajar:
+1. Lee .github/copilot-instructions.md.
+2. Consulta el agente FURDS Documentation.
+3. Utiliza las Skills de .github/skills cuando correspondan.
+4. Respeta los lineamientos y las plantillas del proyecto.
+5. Mantén la autorización humana como condición
+   obligatoria para modificar documentos.
+6. Trabaja exclusivamente sobre el repositorio seleccionado.
+7. No modifiques documentos no autorizados.
+8. No consolides información que no haya sido aprobada.
