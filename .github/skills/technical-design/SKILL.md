@@ -119,10 +119,10 @@ Una vez finalizada la creación o modificación de `04_TecDesign.md`, debes ejec
    - No intentar crear commits alternativos ni
      sobrescribir cambios remotos.
 
-Una vez finalizada la creación o modificación de `00_FURDS.md.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
-1. Verificar que el archivo `00_FURDS.md.md` existe y contiene los cambios realizados.
+Una vez finalizada la creación o modificación de `00_FURDS.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
+1. Verificar que el archivo `00_FURDS.md` existe y contiene los cambios realizados.
 2. Ejecutar el script centralizado de publicación:
-   powershell -NoProfile -ExecutionPolicy Bypass -File ".github/scripts/publish-document.ps1" -FilePath "documents/00_FURDS.md.md" -CommitMessage "docs: update FURDS central"
+   powershell -NoProfile -ExecutionPolicy Bypass -File ".github/scripts/publish-document.ps1" -FilePath "documents/00_FURDS.md" -CommitMessage "docs: update FURDS central"
 2. Esperar el resultado de la ejecución.
 3. Si la publicación es exitosa:
    - Informar que el documento fue publicado.

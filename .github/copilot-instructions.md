@@ -58,8 +58,8 @@ informa la discrepancia y pregunta antes de asumir una equivalencia.
 
 1. Lee los documentos de referencia pertinentes y la plantilla correspondiente antes
    de redactar o modificar documentación.
-2. Respeta los encabezados, el orden, las tablas y la nomenclatura establecidos en
-   `Estructura-FURDS.md` y en la plantilla aplicable.
+2. Respeta los encabezados , secciones y estructura establecidos en
+   `00_FURDS.md` y en la plantilla `tmp00_FURDS.md` aplicable.
 3. No inventes datos, decisiones, reglas de negocio, tecnologías, métricas,
    autorizaciones ni resultados.
 4. Distingue claramente entre información confirmada, propuesta y pendiente.
