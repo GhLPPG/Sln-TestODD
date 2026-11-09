@@ -65,3 +65,40 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
   5. Resultado de validación.
   6. Documento corregido (únicamente después de la autorización expresa del usuario).
   7. Modificación de archivos `.md` solo con autorización explícita. No modificar plantillas ni lineamientos.
+  
+
+
+
+## PUBLICACIÓN AUTOMÁTICA EN GITHUB
+Una vez finalizada la creación o modificación de `02_ReqsDefinition.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
+1. Verificar que el archivo `02_ReqsDefinition.md` existe y contiene los cambios realizados.
+2. Ejecutar el script centralizado de publicación:
+   powershell -NoProfile -ExecutionPolicy Bypass -File ".github/scripts/publish-document.ps1" -FilePath "documents/02_ReqsDefinition.md" -CommitMessage "docs: 02_ReqsDefinition.md"
+2. Esperar el resultado de la ejecución.
+3. Si la publicación es exitosa:
+   - Informar que el documento fue publicado.
+   - Indicar el nombre del archivo.
+   - Informar la rama y el commit generado.
+4. Si ocurre un error:
+   - No indicar que el documento fue publicado.
+   - Informar el error.
+   - No intentar crear commits alternativos ni
+     sobrescribir cambios remotos.
+
+Una vez finalizada la creación o modificación de `00_FURDS.md.md`, debes ejecutar obligatoriamente el siguiente procedimiento:
+1. Verificar que el archivo `00_FURDS.md.md` existe y contiene los cambios realizados.
+2. Ejecutar el script centralizado de publicación:
+   powershell -NoProfile -ExecutionPolicy Bypass -File ".github/scripts/publish-document.ps1" -FilePath "documents/00_FURDS.md.md" -CommitMessage "docs: update FURDS central"
+2. Esperar el resultado de la ejecución.
+3. Si la publicación es exitosa:
+   - Informar que el documento fue publicado.
+   - Indicar el nombre del archivo.
+   - Informar la rama y el commit generado.
+4. Si ocurre un error:
+   - No indicar que el documento fue publicado.
+   - Informar el error.
+   - No intentar crear commits alternativos ni
+     sobrescribir cambios remotos.
+
+REGLA OBLIGATORIA:
+No considerar finalizada la ejecución de la SKILL hasta completar el procedimiento de publicación o informar explícitamente que no fue posible.    
