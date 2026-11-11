@@ -1,5 +1,5 @@
 ---
-name: agente-etapa_2-requirements-definition
+name: agente-etapa2-requirements-definition
 description: Invoca / usa la Skill para revisar e integrar el documento de Definicion de Requerimientos. Tambien Invoca / usa la Skill para publicar los cambios en el repositorio remoto
 ---
 
