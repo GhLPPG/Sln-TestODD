@@ -58,15 +58,15 @@
 
 
 ## Verifica también:
-- Comprueba que las Skills sean consistentescon el procedimiento documental.
+- Comprueba que los Agentes y Skills sean consistentes con el procedimiento documental. 
 - No crees, elimines ni modifiques archivos.
 - No alteres documentos ni plantillas.
 
 - Entrega un diagnóstico con:
 A. Componentes correctos.
-B Componentes faltantes.
-C. Inconsistencias.
-D. Riesgos.
+B. Componentes faltantes.
+C. Inconsistencias y Riesgos de bajo riesgo y gravedad.
+D. Inconsistencias y Riesgos Fatales , críticos o que son de gravedad.
 E. Recomendaciones para iniciar.
 
 - No declares el proyecto listo si existen elementos críticos faltantes.
