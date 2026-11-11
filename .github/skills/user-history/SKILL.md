@@ -18,7 +18,6 @@ Analizar, validar y complementar el documento `01_UserHistory.md` (historia de u
 - `<repositorio_github>/templates/tmp01_UH.md`: Plantilla con la estructura documental obligatoria a respetar para contituir el documento `01_UserHistory.md`.
 - `<repositorio_github>/templates/tmp02_RD.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `02_ReqsDefinition.md`.
 
-
 Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falta y no la sustituyas por otra sin confirmación previa.
 
 ## 3. PROCEDIMIENTO
@@ -40,14 +39,18 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
    - La propuesta no contradice el objetivo.
 4. Realizar una segunda revisión aplicando los criterios de la sección "CRITERIOS DE CALIDAD" de este skill.
 
+
 5. Presentar preguntas numeradas, específicas y necesarias para completar o corregir el documento. No conviertas una hipótesis en un hecho.
 6. Esperar las respuestas. Después, presentar un resumen de los cambios propuestos y solicitar aprobación explícita.
 7. Sin aprobación, no edites archivos.
 
+
 8. Con aprobación, actualiza `01_UserHistory.md` respetando su plantilla.
+
 9. Integrar únicamente el contenido aprobado en la sección correspondiente de `00_FURDS.md`. Conserva el resto del documento concentrador (es decir, copia todo el documento `01_UserHistory.md` y pégalo dentro de `00_FURDS.md` en la sección que corresponda, sustituyendo el contenido previo).
 
-10. Preparar una primera propuesta de `02_ReqsDefinition.md` basada en la historia aprobada y respetando `tmp02_RD.md`. Antes de escribir `02_ReqsDefinition.md`, presenta un resumen de la propuesta y solicita aprobación. No inventes requerimientos; marca lo no confirmado como pendiente.
+
+10. Preparar una primera propuesta de `02_ReqsDefinition.md` basada en la historia de usuario (`01_UserHistory.md`) aprobada y respetando `tmp02_RD.md`. Antes de escribir `02_ReqsDefinition.md`, presenta un resumen de la propuesta y solicita aprobación. No inventes requerimientos; marca lo no confirmado como pendiente.
 11. Una vez aprobada : Generar la primera versión propuesta de `02_ReqsDefinition.md`, basada en la plantilla `tmp02_RD.md`.
 
 

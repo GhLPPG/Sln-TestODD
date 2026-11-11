@@ -14,6 +14,10 @@ Rutas relativas a la raíz del repositorio. Estas son las únicas constantes de 
 - `{REQS}` = `documents/02_ReqsDefinition.md`
 - `{FURDS}` = `documents/00_FURDS.md`
 
+
+Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falta y no la sustituyas por otra sin confirmación previa.
+
+
 ## 3. PROCEDIMIENTO
 1. Verificar que existen `{USER_HISTORY}`, `{FURDS}` y `{REQS}`. Si falta alguno, detenerse e informar el error.
 2. Preguntar al usuario si autoriza publicar los cambios pendientes de estos archivos en el repositorio central (commit, push y merge a main). Esperar confirmación explícita antes de continuar.

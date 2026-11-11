@@ -14,6 +14,7 @@ Analizar, validar y complementar el documento `04_TecDesign.md` (diseño técnic
 - `<repositorio_github>/documents/02_ReqsDefinition.md`: Documento de definición de requerimientos que sirve de contexto para el diseño técnico. Y tambien sirve de contexto para el diseño técnico.
 - `<repositorio_github>/documents/03_AcceptCriteria.md`: Documento de criterios y/o métricas de aceptación que sirve de contexto para el diseño técnico. Y tambien sirve de contexto para el diseño técnico.
 - `<repositorio_github>/documents/04_TecDesign.md`: Documento-Objetivo que se analiza y actualiza.
+- `<repositorio_github>/documents/05_PlanDev.md`: Documento-Objetivo que se propone y se actualiza únicamente tras aprobación explícita de su propuesta.
 - `<repositorio_github>/documents/00_FURDS.md`: Documento donde se copia y concentra la información.
 
 - `<repositorio_github>/templates/tmp04_TD.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `04_TecDesign.md`.
@@ -41,10 +42,8 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
    - Los aspectos técnicos responden a requerimientos y criterios de aceptación aprobados.
    - Los flujos de funcionamiento son coherentes con el comportamiento esperado.
    - Los avances distinguen claramente entre estructura existente y funcionamiento implementado.
-   - No se presentan propuestas técnicas como decisiones aprobadas.
-   
-4. Confirmación de comprensión de la lógica de negocio de cada uno de los documentos INVOLUCRADOS   
-   
+   - No se presentan propuestas técnicas como decisiones aprobadas.   
+4. Confirmación de comprensión de la lógica de negocio de cada uno de los documentos INVOLUCRADOS      
    
 5. Realizar una segunda revisión aplicando los criterios de la sección "CRITERIOS DE CALIDAD" de este skill.
 6. Presentar preguntas numeradas, específicas y necesarias para completar o corregir el documento. No conviertas una hipótesis en un hecho.
@@ -61,13 +60,13 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
 
 10. Preparar una primera propuesta de `05_PlanDev.md` basada en el diseño técnico (`04_TecDesign.md`) aprobado y respetando `tmp05_PL.md`. Antes de escribir `05_PlanDev.md`, presenta un resumen de la propuesta y solicita aprobación. No inventes actividades, responsables, fechas o autorizaciones; marca lo no confirmado como pendiente.
 
-11. Una vez aprobado el Diseño Técnico: Generar la primera versión propuesta de `05_PlanDev.md`, basada en la plantilla `tmp05_PL.md`.
+11. Tras la aprobación explícita de la propuesta de `05_PlanDev.md` indicada en el paso 10, actualizar  `05_PlanDev.md`, basada en la plantilla `tmp05_PL.md`.
 
 
-----------------------------------------
-⏹> INSTRUCCIONES INICIALES:
 
-
+REGLAS OBLIGATORIA:
+- Para las autorizaciones y entregas, toma en cuenta la sección "POLÍTICAS DE AUTORIZACIÓN Y ENTREGA".
+- No considerar finalizada la ejecución hasta verificar que cada Documento-Objetivo aplicable fue actualizado, o que se documentó explícitamente por qué no requería cambios.
 
 
   
@@ -100,20 +99,11 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
   5. Resultado de validación.
   6. Documento corregido (únicamente después de la autorización expresa del usuario).
   7. Modificación de archivos `.md` solo con autorización explícita. No modificar plantillas ni lineamientos.
+  - Al cerrar la ejecución, declara explícitamente uno de estos resultados para el agente orquestador:
+  - `COMPLETADA_CON_CAMBIOS`: incluye la lista exacta de archivos modificados y aprobados.
+  - `COMPLETADA_SIN_CAMBIOS`: explica si no había cambios necesarios, si el usuario rechazó la propuesta o si eligió modificar manualmente.
+  - `FALLIDA`: indica el error y las acciones pendientes.
+- Las preguntas, respuestas y aprobaciones forman parte de una misma ejecución. No declares un resultado final mientras esperes una respuesta o aprobación del usuario.
 
 
 
-## PUBLICACIÓN AUTOMÁTICA EN GITHUB
-Una vez finalizada la creación o modificación de los archivos `00_FURDS.md` , `04_TecDesign.md` y  `05_PlanDev.md` debes ejecutar obligatoriamente el siguiente procedimiento:
-1. Verificar que los siguientes archivos existe y contiene los cambios realizados: `00_FURDS.md` , `04_TecDesign.md` y  `05_PlanDev.md` 
-2. Preguntarme si te autorizo para publicar los cambios pendientes y recientes de los archivos en el repositorio central que está en la nube, eres libre de ocupar el método posible y el más natural y seguro.
-3. Si la publicación es exitosa:
-   - Informar que el documento fue publicado.
-   - Indicar el nombre del archivo.
-   - Informar la rama y el commit generado.
-4. Si ocurre un error:
-   - No indicar que el documento fue publicado.
-   - Informar el error.
-   - Sugerir alternativas
-REGLA OBLIGATORIA:
-No considerar finalizada la ejecución de la SKILL hasta completar el procedimiento de publicación o informar explícitamente que no fue posible.  

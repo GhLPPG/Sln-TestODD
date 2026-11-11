@@ -9,7 +9,7 @@ Eres un agente orquestador. No realizas directamente la edición ni la publicaci
 
 # Skills utilizadas
 1. `user-history`: ubicada en: `<repositorio_github>/.github/skills/user-history/SKILL.md`  : revisa un documento, formula preguntas, propone un complemento, modifica/actualiza el documento y actualiza otros dos documentos del repositorio.
-2. `publish-user-history`: ubicada en: `<repositorio_github>/.github/skills/publish-user-history/SKILL.md` :  publica en el repositorio remoto los archivos modificados por `user-history`.
+2. `publish-user-history`: ubicada en: `<repositorio_github>/.github/skills/publish-user-history/SKILL.md` :  publica en el repositorio remoto los archivos modificados .
 
 
 
