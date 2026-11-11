@@ -1,36 +1,28 @@
-## HISTORIA DE USUARIO 
+## HISTORIA DE USUARIO
 
 > 01_UserHistory.md
 
 ### HISTORIA Y PROPOSITO
->Definir el problema / necesidad desde la perspectiva del usuario [ <span style="color:#c1e8c1">Discovery</span> ]
-- Escribe aquí ....... **Quien** [Rol del usuario / Beneficiario]
-  **Que Quiere** [Realizar una acción / Funcionalidad]
-  **Para que** [Lograr un objetivo / Obtener un valor]  ABCFETRHGJGH
+
+- **Quién:** Un contador que gestiona ingresos y egresos.
+- **Qué quiere:** Registrar ingresos y egresos con facilidad desde su ordenador y consultar balances.
+- **Para qué:** Conocer su saldo disponible y controlar mejor los gastos.
 
 #### Mapeo del Proceso Actual (**)
-> Realizar un "walkthrough"" del proceso para conocer cómo funciona (****Opcional**)  [ <span style="color:#c1e8c1">Discovery</span> ] 
-1. Escribe aquí los pasos o procedimientos.......
 
-
-<br><br><br><br><br>
+- **Pendiente de confirmar:** No se describió cómo se registran actualmente los ingresos y egresos ni cómo se calculan o consultan los balances.
 
 ### OBJETIVO PRINCIPAL
-> La metas funcionales concretas del proyecto  [ <span style="color:#c1e8c1">Discovery</span> ]   [ <span style="color:#fad598">Análisis</span> ]
-- Escribe aquí la metas u objetivo principal......
 
-
+- Facilitar al contador el registro de ingresos y egresos desde su ordenador y la consulta de balances, para que conozca su saldo disponible y controle mejor sus gastos.
 
 #### Propuesta General de Solución (**)
-> Resumen de ALTO nivel de cómo el equipo planea resolver ese problema  (****Opcional**)  [<span style="color:#c1e8c1">Discovery</span>] [<span style="color:#fad598">Análisis</span>] [<span style="color:#9be4f2">Diseño</span>]
-- Describe aquí la propuesta general de solución.
 
-
-<br><br><br><br><br>
+- **Pendiente de confirmar:** Se indicó que el registro debe realizarse desde el ordenador del contador, pero no se definió la solución de alto nivel ni su funcionamiento.
 
 ### DETERMINAR ALCANCE
-> Identificar Límites donde inicia y termina, y que se incluye y excluye explícitamente  
-- Escribe aquí la definición del alcance.
 
+- **Incluye, según lo confirmado:** Registrar ingresos y egresos desde el ordenador y consultar balances.
+- **Pendiente de precisar:** Los datos que se registrarán, el cálculo y alcance de los balances, y las exclusiones del proyecto.
 
-_ _ _ 
+_ _ _
