@@ -52,7 +52,6 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
 
 
 REGLAS OBLIGATORIA:
-- No apruebes automáticamente la siguiente etapa.
 - Para las autorizaciones y entregas, toma en cuenta la sección "POLÍTICAS DE AUTORIZACIÓN Y ENTREGA".
 - No considerar finalizada la ejecución de la SKILL hasta verificar que los Documento-Objetivo hayan sido modificados / actualizados.  
   
