@@ -36,7 +36,7 @@
 │   	├── tarea-revisar-00_Verificacion_Inicio.md   		 	
 │
 │   └── scripts/                      
-│   	├── tpublish-document.ps1  		 	
+│   	├── publish-document.ps1  		 	
 │
 ├── templates/                        
 │   ├── tmp00_FURDS.md                

@@ -1,5 +1,5 @@
 ---
-name: agente-etapa_1-historia_usuario
+name: agente-etapa1-historia_usuario
 description: Invoca / usa la Skill para revisar e integrar el documento de Historia de Usuario. Tambien Invoca / usa la Skill para publicar los cambios en el repositorio remoto
 ---
 

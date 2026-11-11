@@ -10,45 +10,47 @@ de desarrollo de software mediante un proceso asistido por IA y validado por una
 ## Estructura directorios y archivos.
 │PROJECT/REPOSITORIO
 │
-├── .github/
-│   ├── copilot-instructions.md       # Instrucciones globales y directrices para la IA
-│   ├── agents/                       # Definiciones de agentes especializados (si aplica)
-│   └── skills/                       # Skills o habilidades modulares por etapa del FURDS
-│   │   ├── user-history/
-│   │   │   └── SKILL.md              # Skill Reconocimiento de Objetivos
-│   │   ├── requirements-definition/
-│   │   │   └── SKILL.md              # Skill Definicion de Requerimientos
-│   │   ├── acceptance-criteria/
-│   │   │   └── SKILL.md              # Skill Criterios de Aceptación
-│   │   ├── technical-design/
-│   │   │   └── SKILL.md              # Skill Diseño y Especificaciones Técnicas
-│   │   └── imple-dev-plan/
-│   │       └── SKILL.md              # Skill Plan de Desarrollo e Implementación
-│   └── prompts/                      
-│   	├── tarea-revisar-00_Verificacion_Inicio.md   		# Tarea para tarea Verificacion Inicial
-│   	├── tarea-revisar-01_Historia_Usuario.md      		# Tarea para lanzar el skill "user-history"
-│   	├── tarea-revisar-02_Definicion_Requerimientos.md   # Tarea para lanzar el skill "requirements-definition"
-│   	├── tarea-revisar-03_Criterios_Aceptacion.md      	# Tarea para lanzar el skill "acceptance-criteria"
-│   	├── tarea-revisar-04_Diseño_Tecnico.md      		# Tarea para lanzar el skill "technical-design"
-│   	├── tarea-revisar-05_Plan_Implementacion.md      	# Tarea para lanzar el skill "imple-dev-plan"
+├── .github/                                      # Configuración y automatización de GitHub/Copilot.
+│   ├── copilot-instructions.md                    # Instrucciones generales para GitHub Copilot.
+│   ├── agents/                                    # Definiciones de agentes para cada etapa del proceso.
+│   │   ├── agente-etapa1-historia_usuario.md      # Agente para elaborar historias de usuario.
+│   │   ├── agente-etapa2-requirements-definition.md # Agente para definir requisitos.
+│   │   ├── agente-etapa3-acceptance-criteria.md   # Agente para crear criterios de aceptación.
+│   │   ├── agente-etapa4-technical-design.md      # Agente para diseñar la solución técnica.
+│   │   └── agente-etapa5-imple-dev-plan.md        # Agente para preparar el plan de desarrollo.
+│   ├── skills/                                    # Habilidades reutilizables para generar y publicar documentos.
+│   │   ├── user-history/SKILL.md                   # Guía para generar historias de usuario.
+│   │   ├── requirements-definition/SKILL.md        # Guía para definir requisitos.
+│   │   ├── acceptance-criteria/SKILL.md            # Guía para definir criterios de aceptación.
+│   │   ├── technical-design/SKILL.md               # Guía para elaborar el diseño técnico.
+│   │   ├── imple-dev-plan/SKILL.md                 # Guía para crear el plan de implementación.
+│   │   ├── publish-acceptance-criteria/SKILL.md    # Guía para publicar criterios de aceptación.
+│   │   ├── publish-imple-dev-plan/SKILL.md         # Guía para publicar el plan de desarrollo.
+│   │   ├── publish-requirements-definition/SKILL.md # Guía para publicar requisitos.
+│   │   ├── publish-technical-design/SKILL.md       # Guía para publicar el diseño técnico.
+│   │   └── publish-user-history/SKILL.md           # Guía para publicar historias de usuario.
+│   ├── prompts/                                    # Prompts operativos para tareas del proceso.
+│   │   └── tarea-revisar-00_Verificacion_Inicio.md # Prompt para validar el inicio del flujo.
+│   └── scripts/                                    # Scripts de apoyo para automatización.
+│       └── publish-document.ps1                   # Script PowerShell para publicar documentos.
 │
-├── templates/                        # Plantillas base estructuradas para cada documento
-│   ├── tmp00_FURDS.md                # Plantilla del documento concentrador maestro
-│   ├── tmp01_UH.md                   # Plantilla Historia y Propósito de Usuario
-│   ├── tmp02_RD.md                   # Plantilla Definicion de Requerimientos
-│   ├── tmp03_AC.md                   # Plantilla Criterios de Aceptación
-│   ├── tmp04_TD.md                   # Plantilla Diseño Técnico
-│   └── tmp05_PL.md                   # Plantilla Plan de Desarrollo
+├── templates/                                     # Plantillas base de los entregables.
+│   ├── tmp00_FURDS.md                             # Plantilla de FURDS.
+│   ├── tmp01_UH.md                                # Plantilla de historia de usuario.
+│   ├── tmp02_RD.md                                # Plantilla de definición de requisitos.
+│   ├── tmp03_AC.md                                # Plantilla de criterios de aceptación.
+│   ├── tmp04_TD.md                                # Plantilla de diseño técnico.
+│   └── tmp05_PL.md                                # Plantilla de plan de desarrollo.
 │
-├── documents/                        # Documentos vivos del proyecto (salidas y avances reales)
-│   ├── 00_FURDS.md                   # Concentrador principal (Consolida todos los documentos)
-│   ├── 01_UserHistory.md             # Documento: Historia y Propósito de Usuario
-│   ├── 02_ReqsDefinition.md          # Documento: Definicion de Requerimientoso
-│   ├── 03_AcceptCriteria.md          # Documento: Criterios de Aceptación
-│   ├── 04_TecDesign.md               # Documento: Diseño Técnico
-│   └── 05_PlanDev.md                 # Documento: Plan de Desarrollo
+├── documents/                                     # Documentación generada durante el proceso.
+│   ├── 00_FURDS.md                                # Documento inicial de requisitos.
+│   ├── 01_UserHistory.md                          # Historias de usuario.
+│   ├── 02_ReqsDefinition.md                       # Definición detallada de requisitos.
+│   ├── 03_AcceptCriteria.md                       # Criterios de aceptación.
+│   ├── 04_TecDesign.md                            # Diseño técnico.
+│   └── 05_PlanDev.md                              # Plan de implementación y desarrollo.
 │
-└── README.md                         # Descripción general del repositorio para humanos
+└── README.md                                      # Descripción general y uso del repositorio.
 
 Usa los nombres y rutas que existan realmente en el repositorio. Si un documento
 menciona un nombre de plantilla que no coincide con los archivos existentes,
