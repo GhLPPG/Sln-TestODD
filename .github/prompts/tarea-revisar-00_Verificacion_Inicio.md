@@ -5,7 +5,12 @@
 │
 ├── .github/
 │   ├── copilot-instructions.md       
-│   ├── agents/                       
+│   ├── agents/                 
+│   │   │   └── agente-etapa1-historia_usuario.md     
+│   │   │   └── agente-etapa2-requirements-definition.md  
+│   │   │   └── agente-etapa3-acceptance-criteria.md  
+│   │   │   └── agente-etapa4-technical-design.md  
+│   │   │   └── agente-etapa5-imple-dev-plan.md  
 │   └── skills/                       
 │   │   ├── user-history/
 │   │   │   └── SKILL.md              
@@ -16,14 +21,22 @@
 │   │   ├── technical-design/
 │   │   │   └── SKILL.md              
 │   │   └── imple-dev-plan/
-│   │       └── SKILL.md              
+│   │   │    └── SKILL.md              
+│   │   ├── publish-acceptance-criteria/
+│   │   │    └── SKILL.md              
+│   │   ├── publish-imple-dev-plan/
+│   │   │    └── SKILL.md              
+│   │   ├── publish-requirements-definition/
+│   │   │    └── SKILL.md              
+│   │   ├── publish-technical-design/
+│   │   │    └── SKILL.md              
+│   │   └── publish-user-history/
+│   │       └── SKILL.md                         
 │   └── prompts/                      
-│   	├── tarea-revisar-00_Verificacion_Inicio.md   		
-│   	├── tarea-revisar-01_Historia_Usuario.md      		
-│   	├── tarea-revisar-02_Definicion_Requerimientos.md   
-│   	├── tarea-revisar-03_Criterios_Aceptacion.md      	
-│   	├── tarea-revisar-04_Diseño_Tecnico.md      		
-│   	├── tarea-revisar-05_Plan_Implementacion.md      	
+│   	├── tarea-revisar-00_Verificacion_Inicio.md   		 	
+│
+│   └── scripts/                      
+│   	├── tpublish-document.ps1  		 	
 │
 ├── templates/                        
 │   ├── tmp00_FURDS.md                
