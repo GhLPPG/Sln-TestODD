@@ -6,7 +6,7 @@
 ------------------------------------------------------------
 
 ## HISTORIA DE USUARIO
-> 00_FURDS.md
+> 01_UserHistory.md
 ### HISTORIA Y PROPOSITO
 #### Mapeo del Proceso Actual (**)
 ### OBJETIVO PRINCIPAL
