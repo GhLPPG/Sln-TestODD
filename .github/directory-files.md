@@ -18,7 +18,7 @@ PROJECT/REPOSITORIO
 | INFO-RELACION | directory-files                           | `/.github/directory-files.md`                                     | Lista de directorios y archivos                                              |
 | INFO-RELACION | sequence-proc                             | `/.github/sequence-proc.md`                                          | Secuencia General del Proceso Documental                                     |
 | AGENTE        | agente-E00-Verificacion_Inicial           | `/.github/agents/agente-E00-Verificacion_Inicial.md`                 | Agente para revision iniciarl del repositorio y solucion.                    |
-| AGENTE        | agente-etapa1-historia_usuario            | `/.github/agents/agente-etapa1-historia_usuario.md`                  | Agente para elaborar historias de usuario.                                   |
+| AGENTE        | agente-etapa1-historia-usuario            | `/.github/agents/agente-etapa1-historia-usuario.md`                  | Agente para elaborar historias de usuario.                                   |
 | AGENTE        | agente-etapa2-definicion-requirimientos   | `/.github/agents/agente-etapa2-definicion-requirimientos.md`           | Agente para definir requisitos.                                              |
 | AGENTE        | agente-etapa3-criterios-aceptacion        | `/.github/agents/agente-etapa3-criterios-aceptacion.md`               | Agente para crear criterios de aceptación.                                   |
 | AGENTE        | agente-etapa4-dise-tecnico                | `/.github/agents/agente-etapa4-dise-tecnico.md`                  | Agente para diseñar la solución técnica.                                     |
