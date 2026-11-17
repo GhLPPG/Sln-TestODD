@@ -1,26 +1,27 @@
 ---
-name: acceptance-criteria
+name: skill-review-e3-acceptance-criteria
 description: Analiza, valida y complementa el documento '03_AcceptCriteria.md' (criterios y/o métricas de aceptación) para comprobar que los requerimientos puedan verificarse mediante escenarios y criterios de rechazo claros.
 ---
 
-# SKILL: FURDS ACCEPTANCE CRITERIA
 
-##  ROL: Arquitecto y Consultor de Software Senior, experto en .NET, C# Framework 4.5, WinForms, MVC.NET y Entity Framework.
+##  ROL 
+Arquitecto y Consultor de Software Senior, experto en .NET y C#.
+
 
 ## 1. OBJETIVO
 Analizar, validar y complementar el documento `03_AcceptCriteria.md` (criterios y/o métricas de aceptación), asegurando que los escenarios “Happy Path” y “UnHappy Path”, así como los criterios de rechazo, sean claros, verificables y coherentes con los requerimientos aprobados.
 
 ## 2. DOCUMENTOS DE REFERENCIA
-- `<repositorio_github>/documents/02_ReqsDefinition.md`: Documento de definición de requerimientos que sirve de contexto para los criterios de aceptación.
-- `<repositorio_github>/documents/03_AcceptCriteria.md`: Documento-Objetivo que se analiza y actualiza.
-- `<repositorio_github>/documents/04_TecDesign.md`: Documento-Objetivo que se propone y se actualiza únicamente tras aprobación explícita de su propuesta.
-- `<repositorio_github>/documents/00_FURDS.md`: Documento donde se copia y concentra la información.
+- `/.documents/02_ReqsDefinition.md`: Documento de definición de requerimientos que sirve de contexto para los criterios de aceptación.
+- `/.documents/03_AcceptCriteria.md`: Documento-Objetivo que se analiza y actualiza.
+- `/.documents/00_FURDS.md`: Documento-Concentrador donde se copia y concentra la información.
 
-- `<repositorio_github>/templates/tmp03_AC.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `03_AcceptCriteria.md`.
-- `<repositorio_github>/templates/tmp04_TD.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `04_TecDesign.md`.
+- `/.documents/templates/tmp03_AC.md`: Plantilla con la estructura documental a respetar del documento `03_AcceptCriteria.md`.
 
-Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falta y no la sustituyas por otra sin confirmación previa.
+** Lee los archivos disponibles en repositorio y Si una ruta indicada no existe, informa cuál falta. 
 
+
+---
 ## 3. PROCEDIMIENTO
 1. Analizar y validar la siguiente información del documento `03_AcceptCriteria.md`:
    - Los escenarios “Happy Path” y su relación con los requerimientos funcionales.
@@ -39,26 +40,35 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
    - Los criterios de rechazo definen condiciones concretas que impiden la aceptación.
    - No se inventan resultados, métricas o condiciones que no hayan sido confirmados.
    - Los criterios son coherentes con los requerimientos aprobados.
+
 4. Realizar una segunda revisión aplicando los criterios de la sección "CRITERIOS DE CALIDAD" de este skill.
 
-5. Presentar preguntas numeradas, específicas y necesarias para completar o corregir el documento. No conviertas una hipótesis en un hecho.
-6. Esperar las respuestas. Después, presentar un resumen de los cambios propuestos y solicitar aprobación explícita.
-7. Sin aprobación, no edites archivos.
+5. Solo si es necesario presentar un maximo de 3 preguntas numeradas, específicas y necesarias para completar o corregir el documento. No conviertas una hipótesis en un hecho.
+
+6. Esperar las respuestas. Después, presentar un resumen en pantalla de los cambios propuestos y solicitar aprobación explícita.
+
+7. Con aprobación, actualiza `03_AcceptCriteria.md` respetando su plantilla. . Sin aprobación, no edites archivos.
+
+8. Integrar únicamente el contenido aprobado en la sección correspondiente de `00_FURDS.md`. Conserva el resto del documento concentrador (es decir, copia todo el documento `03_AcceptCriteria.md` y pégalo dentro de `00_FURDS.md` en la sección que corresponda, sustituyendo el contenido previo).
+
+9. Indicar la finalizacion correcta y completa de todos los pasos anteriores.Entregar la lista completa de los archivos modificados.
+  
 
 
-8. Con aprobación, actualiza `03_AcceptCriteria.md` respetando su plantilla.
+### CRITERIOS DE CALIDAD
+- Utilizar únicamente información documentada o confirmada. No inventar ni asumir información.
+- Separar claramente: problema, objetivos, solución y funcionalidades.
+- Indicar los supuestos, las necesidades pendientes y las exclusiones.
+- No ampliar el alcance sin autorización del usuario.
+- Si falta información FUNDAMENTAL , preguntar al usuario si desea: Completarla u Omitir esa sección.
 
-9. Integrar únicamente el contenido aprobado en la sección correspondiente de `00_FURDS.md`. Conserva el resto del documento concentrador (es decir, copia todo el documento `03_AcceptCriteria.md` y pégalo dentro de `00_FURDS.md` en la sección que corresponda, sustituyendo el contenido previo).
-
-
-10. Preparar una primera propuesta de `04_TecDesign.md` basada en los requerimientos (`02_ReqsDefinition.md`) y criterios de aceptación (`03_AcceptCriteria.md`) aprobados y respetando `tmp04_TD.md`. Antes de escribir `04_TecDesign.md`, presenta un resumen de la propuesta y solicita aprobación. No inventes decisiones técnicas; marca lo no confirmado como pendiente.
-11. Tras la aprobación explícita de la propuesta de el diseño tecnico de la solucion indicada en el paso 10, actualizar  `04_TecDesign.md`, basada en la plantilla `tmp04_TD.md`.
-
-
-
-REGLAS OBLIGATORIA:
-- Para las autorizaciones y entregas, toma en cuenta la sección "POLÍTICAS DE AUTORIZACIÓN Y ENTREGA".
-- No considerar finalizada la ejecución hasta verificar que cada Documento-Objetivo aplicable fue actualizado, o que se documentó explícitamente por qué no requería cambios.
+### POLÍTICAS DE AUTORIZACIÓN Y ENTREGA
+- Presentar siempre en pantalla todas las propuestas y esperar la respuesta o confirmación del usuario antes de continuar o ejecutar cualquier acción.
+- Modificar archivos '.md' únicamente cuando exista una autorización explícita del usuario.
+- No modificar, bajo ninguna circunstancia, las plantillas ni los lineamientos establecidos.
+- No considerar finalizada la ejecución de la SKILL hasta verificar que todos los Documentos-Objetivo hayan sido modificados o actualizados correctamente, siempre que el usuario haya solicitado y confirmado dichas modificaciones.
+- Entregar al Agente que invocó la SKILL la lista completa de los archivos modificados.
+- Al finalizar, indicar expresamente si todos los pasos se completaron de forma correcta y completa. En caso contrario, informar de los fallos, las excepciones y cualquier paso que haya quedado incompleto.
 
 
 

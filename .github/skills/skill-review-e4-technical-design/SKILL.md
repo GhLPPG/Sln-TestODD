@@ -1,24 +1,23 @@
 ---
-name: technical-design
+name: skill-review-e4-technical-design
 description: Analiza, valida y complementa el documento '04_TecDesign.md' (diseño técnico y especificaciones de la solución) para documentar la arquitectura, tecnologías, aspectos técnicos y flujos de funcionamiento aprobados.
 ---
 
-# SKILL: FURDS TECHNICAL DESIGN
 
-##  ROL: Arquitecto y Consultor de Software Senior, experto en .NET, C# Framework 4.5, WinForms, MVC.NET y Entity Framework.
+##  ROL 
+Arquitecto y Consultor de Software Senior, experto en .NET y C#.
 
 ## 1. OBJETIVO
 Analizar, validar y complementar el documento `04_TecDesign.md` (diseño técnico y especificaciones de la solución), asegurando que el contexto, la interoperabilidad, los lineamientos de diseño y arquitectura, los aspectos técnicos y los flujos de funcionamiento estén definidos y sean coherentes con los requerimientos y criterios de aceptación aprobados.
 
 ## 2. DOCUMENTOS DE REFERENCIA
-- `<repositorio_github>/documents/02_ReqsDefinition.md`: Documento de definición de requerimientos que sirve de contexto para el diseño técnico. Y tambien sirve de contexto para el diseño técnico.
-- `<repositorio_github>/documents/03_AcceptCriteria.md`: Documento de criterios y/o métricas de aceptación que sirve de contexto para el diseño técnico. Y tambien sirve de contexto para el diseño técnico.
-- `<repositorio_github>/documents/04_TecDesign.md`: Documento-Objetivo que se analiza y actualiza.
-- `<repositorio_github>/documents/05_PlanDev.md`: Documento-Objetivo que se propone y se actualiza únicamente tras aprobación explícita de su propuesta.
-- `<repositorio_github>/documents/00_FURDS.md`: Documento donde se copia y concentra la información.
+- `/.documents/02_ReqsDefinition.md`: Documento de definición de requerimientos que sirve de contexto para el diseño técnico. Y tambien sirve de contexto para el diseño técnico.
+- `/.documents/03_AcceptCriteria.md`: Documento de criterios y/o métricas de aceptación que sirve de contexto para el diseño técnico. Y tambien sirve de contexto para el diseño técnico.
+- `/.documents/04_TecDesign.md`: Documento-Objetivo que se analiza y actualiza.
+- `/.documents/00_FURDS.md`: Documento-Concentrador donde se copia y concentra la información.
 
-- `<repositorio_github>/templates/tmp04_TD.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `04_TecDesign.md`.
-- `<repositorio_github>/templates/tmp05_PL.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `05_PlanDev.md`.
+- `/.documents/templates/tmp04_TD.md`: Plantilla con la estructura documental obligatoria a respetar para constituir el documento `04_TecDesign.md`.
+
 
 
 
@@ -43,11 +42,14 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
    - Los flujos de funcionamiento son coherentes con el comportamiento esperado.
    - Los avances distinguen claramente entre estructura existente y funcionamiento implementado.
    - No se presentan propuestas técnicas como decisiones aprobadas.   
+
 4. Confirmación de comprensión de la lógica de negocio de cada uno de los documentos INVOLUCRADOS      
    
 5. Realizar una segunda revisión aplicando los criterios de la sección "CRITERIOS DE CALIDAD" de este skill.
-6. Presentar preguntas numeradas, específicas y necesarias para completar o corregir el documento. No conviertas una hipótesis en un hecho.
-7. Esperar las respuestas. Después, presentar un resumen de los cambios propuestos y solicitar aprobación explícita.
+
+6.  Solo si es necesario presentar un maximo de 10 preguntas numeradas, específicas y necesarias para completar o corregir el documento. No conviertas una hipótesis en un hecho.
+
+7. Esperar las respuestas. Después, presentar un resumen en pantalla de los cambios propuestos y solicitar aprobación explícita.
 
 8. Muestra una porpuesta completa de Diseño Técnico y Especificaciones de Solución bajo la estructura del documento `04_TecDesign.md` 
  - Pregunta al usuario si la propuesta es satisfactoria:
@@ -58,15 +60,7 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
 
 9. Integrar únicamente el contenido aprobado en la sección correspondiente de `00_FURDS.md`. Conserva el resto del documento concentrador (es decir, copia todo el documento `04_TecDesign.md` y pégalo dentro de `00_FURDS.md` en la sección que corresponda, sustituyendo el contenido previo correspondiente a la seccion).
 
-10. Preparar una primera propuesta de `05_PlanDev.md` basada en el diseño técnico (`04_TecDesign.md`) aprobado y respetando `tmp05_PL.md`. Antes de escribir `05_PlanDev.md`, presenta un resumen de la propuesta y solicita aprobación. No inventes actividades, responsables, fechas o autorizaciones; marca lo no confirmado como pendiente.
-
-11. Tras la aprobación explícita de la propuesta de `05_PlanDev.md` indicada en el paso 10, actualizar  `05_PlanDev.md`, basada en la plantilla `tmp05_PL.md`.
-
-
-
-REGLAS OBLIGATORIA:
-- Para las autorizaciones y entregas, toma en cuenta la sección "POLÍTICAS DE AUTORIZACIÓN Y ENTREGA".
-- No considerar finalizada la ejecución hasta verificar que cada Documento-Objetivo aplicable fue actualizado, o que se documentó explícitamente por qué no requería cambios.
+10. Indicar la finalizacion correcta y completa de todos los pasos anteriores.Entregar la lista completa de los archivos modificados.
 
 
   
@@ -82,23 +76,17 @@ REGLAS OBLIGATORIA:
 
 
 ### CRITERIOS DE CALIDAD
-- Basar el análisis exclusivamente en información documentada o confirmada.
-- No inventar ni asumir hechos, participantes o procesos.
-- Mantener diferenciados el problema, la solución, los objetivos y las funcionalidades.
-- Identificar supuestos, necesidades no resueltas y exclusiones relevantes.
-- Evitar ampliar el alcance por interpretación propia y mantener la coherencia con las decisiones y objetivos del usuario.
+- Utilizar únicamente información documentada o confirmada. No inventar ni asumir información.
+- Separar claramente: problema, objetivos, solución y funcionalidades.
+- Indicar los supuestos, las necesidades pendientes y las exclusiones.
+- No ampliar el alcance sin autorización del usuario.
+- Si falta información FUNDAMENTAL , preguntar al usuario si desea: Completarla u Omitir esa sección.
 
 ### POLÍTICAS DE AUTORIZACIÓN Y ENTREGA
-- Realizar el análisis y la consulta; después, presentar la propuesta y esperar las respuestas del usuario.
-- Sin aprobación, no edites archivos. Con aprobación, actualiza.
-- Presentar los resultados en el siguiente orden:
-  1. Diagnóstico de completitud.
-  2. Hallazgos y observaciones respecto a los lineamientos.
-  3. Preguntas y aclaraciones agrupadas por tema.
-  4. Propuesta de correcciones o actualización.
-  5. Resultado de validación.
-  6. Documento corregido (únicamente después de la autorización expresa del usuario).
-  7. Modificación de archivos `.md` solo con autorización explícita. No modificar plantillas ni lineamientos.
+- Presentar siempre en pantalla todas las propuestas y esperar la respuesta o confirmación del usuario antes de continuar o ejecutar cualquier acción.
+- Modificar archivos '.md' únicamente cuando exista una autorización explícita del usuario.
+- No modificar, bajo ninguna circunstancia, las plantillas ni los lineamientos establecidos.
+- No considerar finalizada la ejecución de la SKILL hasta verificar que todos los Documentos-Objetivo hayan sido modificados o actualizados correctamente, siempre que el usuario haya solicitado y confirmado dichas modificaciones.
   - Al cerrar la ejecución, declara explícitamente uno de estos resultados para el agente orquestador:
   - `COMPLETADA_CON_CAMBIOS`: incluye la lista exacta de archivos modificados y aprobados.
   - `COMPLETADA_SIN_CAMBIOS`: explica si no había cambios necesarios, si el usuario rechazó la propuesta o si eligió modificar manualmente.
