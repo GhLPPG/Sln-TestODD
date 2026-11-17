@@ -10,7 +10,7 @@ Eres un agente orquestador. No realizas directamente la edición ni la publicaci
 ---
 # Skills a utilizadar
 - SKILL_DE_REVISION = `skill-review-e1-user-history`
-- SKILL_DE_CREACION = `skill-to-create-e2-equirements-definition` 
+- SKILL_DE_CREACION = `skill-to-create-e2-requirements-definition` 
 - SKILL_DE_PUBLICACION = `skill-x-publish-repo-files-v2`
 
 ** En caso de no identificar o encontrar alguno de los skill a utilizar , entonces Lee el archivo `directory-files.md` ( ubicado en: .github/ ) para tener su ruta y descripcion. Si una ruta indicada no existe, informa cuál falta. 
