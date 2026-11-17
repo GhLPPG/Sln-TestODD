@@ -10,7 +10,7 @@ Este repositorio implementa y gestiona la elaboración progresiva de documentaci
 ## Archivos de Referencia Iniciales
 1. Lee el archivo `directory-files.md` ( ubicado en: .github/ ) para tener conocimiento de los archivos (agentes, skill, documentos, plantillas, etc.) involucrados.
 2. Lee el archivo `sequence-proc.md` ( ubicado en: .github/ ) para tener conocimiento del flujo y Secuencia general para la elaboración progresiva de documentación .
-
+3. Le los agentes existentes en este repositorio y en lístalos en pantalla para que el usuario pueda elegir uno. Excepto el agente 'agente-E00-Verificacion_Inicial'
 - 
 
 ## Reglas de trabajo de Objetos IA: Agentes y Skills
@@ -34,6 +34,6 @@ Este repositorio implementa y gestiona la elaboración progresiva de documentaci
 9. Al actualizar `00_FURDS.md`, conserva su estructura y contenido existente.
 10. Integra la información aprobada, evita duplicados y no sobrescribas secciones no relacionadas.
 11. No marques una tarea como autorizada, implementada, probada o completada si las fuentes no lo confirman.
-12. La actualización de archivos hacia el repositorio remoto central solo se lleva a cabo cuando se solicite de forma expresa y explícita, entonces tendria prioridad la instrucciones de un agente o skill.
+12. La actualización de archivos hacia el repositorio remoto central en lo posible siempre debe ser directa y de forma automatica.
 13. Al terminar, informa qué archivos leíste, qué archivos cambiaste, qué queda pendiente y qué debe revisar o aprobar la persona usuaria.
 
