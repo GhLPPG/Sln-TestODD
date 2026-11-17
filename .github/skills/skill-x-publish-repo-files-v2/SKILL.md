@@ -79,44 +79,43 @@ Recibir del agente orquestador:
 
 ### Paso 5. Preparar integración en MAIN
 1. Identificar la rama de trabajo desde la cual se generó el commit.
-2. Cambiar a la rama local `main`.
-3. Sincronizar `main` con el repositorio remoto:   `git pull --ff-only origin main`
-4. Verificar que `main` esté actualizada respecto a `origin/main`.
-5. Comprobar que los cambios que se integrarán desde la rama de trabajo correspondan exclusivamente a los archivos autorizados.
+2. Mantenerse en la rama activa de trabajo (no cambiar a `main`).
+3. Actualizar referencias remotas:   `git fetch origin`
+4. Verificar el estado de la rama de trabajo respecto a `origin/main`.
+5. Comprobar que los cambios que se integrarán correspondan exclusivamente a los archivos autorizados.
 6. Verificar que no existan cambios ajenos que puedan incorporarse accidentalmente.
-** Si la rama activa ya es `main`, continuar con las verificaciones sin realizar un merge innecesario.
-** Si existen cambios locales que impidan cambiar de rama de forma segura, detenerse sin descartar ni sobrescribirlos.
+** Si la rama activa es `main`, continuar sin pasos adicionales de cambio de rama.
+** Si existen cambios locales que impidan integrar de forma segura, detenerse sin descartar ni sobrescribirlos.
 
 ### Paso 6. Ejecutar MERGE hacia MAIN
-Cuando la rama de trabajo sea diferente de `main`:
-1. Integrar la rama de trabajo en `main` mediante:   `git merge --no-ff <rama_origen> -m "merge: integrar actualizacion de documentacion"`
+1. Integrar en la rama de trabajo los cambios más recientes de `origin/main`:   `git merge origin/main`
 2. Verificar que el merge haya finalizado correctamente.
-3. Comprobar que los archivos autorizados estén presentes en `main`.
+3. Comprobar que los archivos autorizados se mantengan correctamente en la rama de trabajo.
 4. Confirmar que no se hayan incorporado modificaciones ajenas a la publicación.
 
 Si ocurre un conflicto:
 - Intentar resolverlo automáticamente únicamente cuando la resolución preserve íntegramente los cambios existentes y la intención de ambos lados.
 - Si no existe una resolución inequívoca, detener la ejecución e informar los archivos afectados.
-- Nunca sobrescribir cambios de `main` para forzar la integración.
+- Nunca sobrescribir cambios de `origin/main` para forzar la integración.
 
 ### Paso 7. Ejecutar PUSH hacia repositorio remoto
-Publicar los cambios integrados en la rama remota central:`git push origin main`
+Publicar los cambios integrados en la rama remota central sin cambiar de rama local: `git push origin HEAD:main`
 Si el push es rechazado porque `origin/main` recibió nuevos cambios:
 1. Ejecutar `git fetch origin`.
-2. Actualizar la rama local `main` mediante:  `git pull --no-rebase origin main`
+2. Reintegrar `origin/main` en la rama de trabajo mediante:  `git merge origin/main`
 3. Resolver automáticamente los conflictos únicamente cuando sea seguro.
 4. Verificar nuevamente la integración.
-5. Reintentar:   `git push origin main`
+5. Reintentar:   `git push origin HEAD:main`
 ** No utilizar `git push --force`, `git push --force-with-lease` ni operaciones equivalentes.
 
 ### Paso 8. Verificar publicación final
 Comprobar obligatoriamente:
-1. Que los archivos autorizados estén actualizados en la rama local `main`.
-2. Que el commit generado esté integrado en `main`.
+1. Que los archivos autorizados estén actualizados en la rama de trabajo activa.
+2. Que el commit generado esté presente en la rama de trabajo activa.
 3. Que el merge haya finalizado correctamente cuando corresponda.
 4. Que el push haya finalizado correctamente.
 5. Que `origin/main` contenga los cambios publicados.
-6. Que la rama local `main` y `origin/main` estén sincronizadas.
+6. Que `origin/main` apunte al commit publicado.
 7. Que no existan errores ni operaciones pendientes.
 ** La publicación solamente se considera exitosa cuando todas las verificaciones se cumplen.
 
@@ -169,7 +168,7 @@ La skill solamente podrá devolver `SUCCESS` cuando:
 1. Se haya recuperado correctamente la lista de archivos mediante la referencia recibida.
 2. Se hayan publicado todos los archivos autorizados.
 3. El commit se haya creado correctamente.
-4. Los cambios se hayan integrado en la rama `main`.
+4. Los cambios se hayan integrado correctamente en la rama de trabajo respecto a `origin/main`.
 5. El push hacia `origin/main` haya finalizado correctamente.
 6. Se haya verificado la presencia de los cambios en el repositorio remoto.
 7. No existan errores ni acciones pendientes.

@@ -1,16 +1,16 @@
 ---
-name: agente-Etapa1-Historia_usuario
-description: Invoca / usa la Skill para revisar e integrar el documento de Historia de Usuario. Tambien Invoca / usa la Skill para publicar los cambios en el repositorio remoto.
+name: agente-etapa3-criterios-aceptacion
+description: Invoca / usa la Skill para revisar e integrar el documento de Definicion de Requerimientos. Tambien Invoca / usa la Skill para publicar los cambios en el repositorio remoto
 ---
 
 
-# ROL
+# Rol
 Eres un agente orquestador. No realizas directamente la edición ni la publicación: invocas skills, verificas que cada una termine correctamente y avanzas en orden estricto.
 
 ---
 # Skills a utilizadar
-- SKILL_DE_REVISION = `skill-review-E1-user-history`
-- SKILL_DE_CREACION = `skill-to-create-E2-equirements-definition` 
+- SKILL_DE_REVISION = `skill-review-e3-acceptance-criteria`
+- SKILL_DE_CREACION = `skill-to-create-e4-technical-design` 
 - SKILL_DE_PUBLICACION = `skill-x-publish-repo-files-v2`
 
 ** En caso de no identificar o encontrar alguno de los skill a utilizar , entonces Lee el archivo `directory-files.md` ( ubicado en: .github/ ) para tener su ruta y descripcion. Si una ruta indicada no existe, informa cuál falta. 

@@ -8,7 +8,7 @@ Eres un agente auditor
 
 
 # OBJETIVO
-Vas a realizar una auditoria de la esrtuctura,configuración, archivos, referencias, logica de este repositorio Github para que funcionen con la arquitectura de uns solucion asistida por la IA con agentes y skills.
+Vas a realizar una auditoria de la estructura, configuración, archivos, referencias, logica de este repositorio Github para que funcionen con la arquitectura de uns solucion asistida por la IA con agentes y skills.
 ---
 
 ## Verificacion de directorios y archivos

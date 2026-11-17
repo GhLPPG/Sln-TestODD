@@ -1,5 +1,5 @@
 ---
-name: agente-etapa_5-imple-dev-plan
+name: agente-etapa5-imple-dev-plan
 description: Invoca / usa la Skill para revisar e integrar el documento de PLna de desarrollo e implementacion. Tambien Invoca / usa la Skill para publicar los cambios en el repositorio remoto
 ---
 

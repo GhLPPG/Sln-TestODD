@@ -52,9 +52,9 @@ Lee los archivos disponibles. Si una ruta indicada no existe, informa cuál falt
 
 8. Integrar únicamente el contenido aprobado en la sección correspondiente de `00_FURDS.md`. Conserva el resto del documento concentrador (es decir, copia todo el documento `05_PlanDev.md` y pégalo dentro de `00_FURDS.md` en la sección que corresponda, sustituyendo el contenido previo).
 
-10. Una vez aprobado el Plan de Desarrollo e Implementación: Generar revisar y validar la versión integrada a lo largo del proceso del documento `00_FURDS.md`, basada en la plantilla `tmp00_FURDS.md`.
+9. Una vez aprobado el Plan de Desarrollo e Implementación: Generar revisar y validar la versión integrada a lo largo del proceso del documento `00_FURDS.md`, basada en la plantilla `tmp00_FURDS.md`.
 
-9. Indicar la finalizacion correcta y completa de todos los pasos anteriores.Entregar la lista completa de los archivos modificados.
+10. Indicar la finalizacion correcta y completa de todos los pasos anteriores.Entregar la lista completa de los archivos modificados.
 
 
 

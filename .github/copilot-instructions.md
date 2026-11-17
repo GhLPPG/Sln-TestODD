@@ -34,6 +34,6 @@ Este repositorio implementa y gestiona la elaboración progresiva de documentaci
 9. Al actualizar `00_FURDS.md`, conserva su estructura y contenido existente.
 10. Integra la información aprobada, evita duplicados y no sobrescribas secciones no relacionadas.
 11. No marques una tarea como autorizada, implementada, probada o completada si las fuentes no lo confirman.
-12. La actualización de archivos hacia el repositorio remoto central solo se lleva a cabo cuando se solicite de forma expresa y explícita.
+12. La actualización de archivos hacia el repositorio remoto central solo se lleva a cabo cuando se solicite de forma expresa y explícita, entonces tendria prioridad la instrucciones de un agente o skill.
 13. Al terminar, informa qué archivos leíste, qué archivos cambiaste, qué queda pendiente y qué debe revisar o aprobar la persona usuaria.
 
