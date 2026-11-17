@@ -33,7 +33,7 @@
 ## CRITERIOS DE ACEPTACIÓN
 >  03_AcceptCriteria.md
 ### Escenarios "Happy Path"
-### Escenarios "UnHappy Path">
+### Escenarios "UnHappy Path"
 ### Criterios de Rechazo
 
 
@@ -44,7 +44,7 @@
 
 ### Contexto
 #### Introducción
-#### Interoperabilidad| 
+#### Interoperabilidad
 
 ### Lineamientos de Diseño y Arquitectura de Código
 #### Tecnologías

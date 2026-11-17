@@ -6,7 +6,7 @@
 >Definir el problema / necesidad desde la perspectiva del usuario [ <span style="color:#c1e8c1">Discovery</span> ]
 - Escribe aquí ....... **Quien** [Rol del usuario / Beneficiario]
   **Que Quiere** [Realizar una acción / Funcionalidad]
-  **Para que** [Lograr un objetivo / Obtener un valor]  ABCFETRHGJGH
+  **Para que** [Lograr un objetivo / Obtener un valor]
 
 #### Mapeo del Proceso Actual (**)
 > Realizar un "walkthrough"" del proceso para conocer cómo funciona (****Opcional**)  [ <span style="color:#c1e8c1">Discovery</span> ] 

@@ -1,6 +1,6 @@
 ---
 name: agente-etapa3-criterios-aceptacion
-description: Invoca / usa la Skill para revisar e integrar el documento de Definicion de Requerimientos. Tambien Invoca / usa la Skill para publicar los cambios en el repositorio remoto
+description: description: Invoca las skills para revisar e integrar los criterios de aceptación y preparar la propuesta inicial del diseño técnico. Publica los cambios únicamente cuando exista una solicitud expresa y explícita del usuario.
 ---
 
 

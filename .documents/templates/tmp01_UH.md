@@ -10,7 +10,7 @@
 
 - Escribe aquí ....... **Quien** [Rol del usuario / Beneficiario]
   **Que Quiere** [Realizar una acción / Funcionalidad]
-  **Para que** [Lograr un objetivo / Obtener un valor]  ABCFETRHGJGH
+ **Para que** [Lograr un objetivo / Obtener un valor]
 
  ---
 

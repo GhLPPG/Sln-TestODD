@@ -1,4 +1,4 @@
-## Plan de Desarrollo
+## PLAN DE DESARROLLO
 
 > 05_PlanDev.md
 

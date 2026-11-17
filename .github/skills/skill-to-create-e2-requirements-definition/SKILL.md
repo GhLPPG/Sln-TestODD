@@ -1,5 +1,5 @@
 ---
-name: skill-to-create-e2-equirements-definition
+name: skill-to-create-e2-requirements-definition
 description: Crear la primera version del documento '02_ReqsDefinition.md' (definición de requerimientos).
 ---
 

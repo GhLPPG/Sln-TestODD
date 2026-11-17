@@ -1,4 +1,4 @@
-## Criterios de Aceptación
+## CRITERIOS DE ACEPTACIÓN
 
 >  03_AcceptCriteria.md
 

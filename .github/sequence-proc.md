@@ -12,7 +12,7 @@
 
 2. Preparar una propuesta inicial del documento `02_ReqsDefinition.md` y mostrala en pantalla.
    1. (2.1) Autorizar y grabar en el archivo `02_ReqsDefinition.md`  
-   2. Actualiza en el repositorio remoto central el archivo `00_FURDS.md`   
+   2. Actualiza en el repositorio remoto central el archivo `02_ReqsDefinition.md`   
 
  ## Etapa 2
 3. Revisar `02_ReqsDefinition.md` y proponer mejoras en caso de requerirse.
